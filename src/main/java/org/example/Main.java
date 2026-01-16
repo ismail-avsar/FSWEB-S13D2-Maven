@@ -68,50 +68,50 @@ public class Main {
         }
 
         String numberStr = String.valueOf(number);
-        StringBuilder result = new StringBuilder();
+        String result = "";
 
         for (int i = 0; i < numberStr.length(); i++) {
             char digit = numberStr.charAt(i);
 
             switch (digit) {
                 case '0':
-                    result.append("Zero");
+                    result += "Zero";
                     break;
                 case '1':
-                    result.append("One");
+                    result += "One";
                     break;
                 case '2':
-                    result.append("Two");
+                    result += "Two";
                     break;
                 case '3':
-                    result.append("Three");
+                    result += "Three";
                     break;
                 case '4':
-                    result.append("Four");
+                    result += "Four";
                     break;
                 case '5':
-                    result.append("Five");
+                    result += "Five";
                     break;
                 case '6':
-                    result.append("Six");
+                    result += "Six";
                     break;
                 case '7':
-                    result.append("Seven");
+                    result += "Seven";
                     break;
                 case '8':
-                    result.append("Eight");
+                    result += "Eight";
                     break;
                 case '9':
-                    result.append("Nine");
+                    result += "Nine";
                     break;
             }
 
             if (i < numberStr.length() - 1) {
-                result.append(" ");
+                result += " ";
             }
         }
 
-        return result.toString();
+        return result;
 
     }
 
