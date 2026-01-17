@@ -64,7 +64,7 @@ public class Main {
         }
 
         if (number == 0) {
-            return "Zero";
+            return "Zero ";
         }
 
         String numberStr = String.valueOf(number);
@@ -75,34 +75,34 @@ public class Main {
 
             switch (digit) {
                 case '0':
-                    result += "Zero";
+                    result += "Zero ";
                     break;
                 case '1':
-                    result += "One";
+                    result += "One ";
                     break;
                 case '2':
-                    result += "Two";
+                    result += "Two ";
                     break;
                 case '3':
-                    result += "Three";
+                    result += "Three ";
                     break;
                 case '4':
-                    result += "Four";
+                    result += "Four ";
                     break;
                 case '5':
-                    result += "Five";
+                    result += "Five ";
                     break;
                 case '6':
-                    result += "Six";
+                    result += "Six ";
                     break;
                 case '7':
-                    result += "Seven";
+                    result += "Seven ";
                     break;
                 case '8':
-                    result += "Eight";
+                    result += "Eight ";
                     break;
                 case '9':
-                    result += "Nine";
+                    result += "Nine ";
                     break;
             }
 
@@ -111,7 +111,7 @@ public class Main {
             }
         }
 
-        return result;
+        return result.trim();
 
     }
 
